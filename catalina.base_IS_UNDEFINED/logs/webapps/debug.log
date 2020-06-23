@@ -1,0 +1,18 @@
+2020-06-22 11:08:34.289 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\1\2020062211083487384.jpg
+2020-06-22 11:08:34.300 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\MrJ's Documents\image\upload\item\shop\1\2020062211083487384.jpg
+2020-06-22 11:08:34.301 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/IntelliJ_workspace/o2o/target/test-classes/
+2020-06-22 11:08:34.761 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-06-22 11:08:34.868 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==> Parameters: 测试商品1(String), 测试商品1(String), upload\item\shop\1\2020062211083487384.jpg(String), null, null, 20(Integer), 2020-06-22 11:08:34.284(Timestamp), 2020-06-22 11:08:34.284(Timestamp), 1(Integer), null, 1(Long), 1(Long)
+2020-06-22 11:12:46.834 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\1\2020062211124677938.jpg
+2020-06-22 11:12:46.835 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\MrJ's Documents\image\upload\item\shop\1\2020062211124677938.jpg
+2020-06-22 11:12:46.835 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/IntelliJ_workspace/o2o/target/test-classes/
+2020-06-22 11:12:47.083 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?, ?) 
+2020-06-22 11:12:47.137 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==> Parameters: 测试商品1(String), 测试商品1(String), upload\item\shop\1\2020062211124677938.jpg(String), null, null, 20(Integer), 2020-06-22 11:12:46.831(Timestamp), 2020-06-22 11:12:46.831(Timestamp), 1(Integer), 1(Long), 1(Long)
+2020-06-22 11:12:47.151 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-06-22 11:12:47.177 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\1\2020062211124754983.jpg
+2020-06-22 11:12:47.177 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\MrJ's Documents\image\upload\item\shop\1\2020062211124754983.jpg
+2020-06-22 11:12:47.206 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\1\2020062211124736578.jpg
+2020-06-22 11:12:47.207 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\MrJ's Documents\image\upload\item\shop\1\2020062211124736578.jpg
+2020-06-22 11:12:47.310 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-06-22 11:12:47.312 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: upload\item\shop\1\2020062211124754983.jpg(String), null, null, 2020-06-22 11:12:47.206(Timestamp), 13(Long), upload\item\shop\1\2020062211124736578.jpg(String), null, null, 2020-06-22 11:12:47.277(Timestamp), 13(Long)
+2020-06-22 11:12:47.317 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
